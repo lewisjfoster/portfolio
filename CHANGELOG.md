@@ -1,4 +1,13 @@
-# 1.0.0 (2020-06-04)
+## [1.0.1](https://github.com/lewisjfoster/portfolio/compare/v1.0.0...v1.0.1) (2020-06-04)
+
+
+### Bug Fixes
+
+* added gh-pages dev dependency ([a1806d7](https://github.com/lewisjfoster/portfolio/commit/a1806d7c82e1c6feb1ea7a0af22cfb4667af5223))
+
+
+
+# [1.0.0](https://github.com/lewisjfoster/portfolio/compare/4d38538c44990353093fb610cb23f1abfad71f76...v1.0.0) (2020-06-04)
 
 
 ### Features
