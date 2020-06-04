@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    padding: var(--x-large) var(--xx-large);
+
+    @media (--media-m) {
+        padding: var(--x-large) var(--max);
+    }
+
+    &.isFullHeight {
+        height: 100vh;
+        display: flex;
+    }
+}
+
+/* Background */
+.bgOne {
+    background-color: var(--bg-one);
+}
+
+.bgTwo {
+    background-color: var(--bg-two);
+}
+
+.bgThree {
+    background-color: var(--bg-three);
+}
+
+.bgFour {
+    background-color: var(--bg-four);
+}

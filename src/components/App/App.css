@@ -1,7 +1,10 @@
-body {
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 
-.title {
-    color: red;
+body {
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--bg-one);
+    color: var(--text-base);
 }

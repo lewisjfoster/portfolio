@@ -1,0 +1,15 @@
+.line {
+    font-size: var(--medium-extra);
+    line-height: var(--medium-plus);
+    margin-bottom: var(--small);
+
+    & > a {
+        color: var(--text-base);
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            color: var(--text-active);
+        }
+    }
+}

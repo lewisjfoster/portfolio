@@ -1,8 +1,18 @@
 import React from 'react';
 
-import lang from '../../libs/lang';
-import styles from './App.css';
+import './App.css';
+import Home from '../sections/Home';
+import AboutMe from '../sections/AboutMe';
+import Skills from '../sections/Skills';
 
-const App = () => <div className={styles.title}>{lang.title}</div>;
+const App = () => {
+    return (
+        <>
+            <Home />
+            <AboutMe />
+            <Skills />
+        </>
+    );
+};
 
 export default App;
