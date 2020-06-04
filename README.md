@@ -1,6 +1,4 @@
-# React Template (react-template)
-
-A template for React projects. This template contains features to make development easier and more consistant.
+# Lewis Foster - Portfolio
 
 ## Getting Started
 
@@ -12,9 +10,9 @@ A template for React projects. This template contains features to make developme
 2. Setup the repo
 
 ```
-git clone https://github.com/lewisjfoster/<repo-name>.git
+git clone https://github.com/lewisjfoster/portfolio.git
 
-cd <repo-name>
+cd portfolio
 
 yarn install
 ```
