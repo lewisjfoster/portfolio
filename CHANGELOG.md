@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/lewisjfoster/portfolio/compare/v1.0.4...v1.0.5) (2020-06-05)
+
+
+### Bug Fixes
+
+* added url to README ([203336a](https://github.com/lewisjfoster/portfolio/commit/203336ae98947ef8df95fd7e58bfac4fccb7165d))
+
+
+
 ## [1.0.4](https://github.com/lewisjfoster/portfolio/compare/v1.0.3...v1.0.4) (2020-06-05)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * added gh-pages dev dependency ([a1806d7](https://github.com/lewisjfoster/portfolio/commit/a1806d7c82e1c6feb1ea7a0af22cfb4667af5223))
-
-
-
-# [1.0.0](https://github.com/lewisjfoster/portfolio/compare/4d38538c44990353093fb610cb23f1abfad71f76...v1.0.0) (2020-06-04)
-
-
-### Features
-
-* added portfolio information ([4d38538](https://github.com/lewisjfoster/portfolio/commit/4d38538c44990353093fb610cb23f1abfad71f76))
-
-
-### BREAKING CHANGES
-
-* added portfolio information
 
 
 
