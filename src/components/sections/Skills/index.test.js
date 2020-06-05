@@ -29,21 +29,20 @@ describe('Skills', () => {
         expect(skillsSection.length).toBe(config.length);
 
         skillsSection.forEach((type, typeIndex) => {
-            const { id, skillsOrder } = config[typeIndex];
+            const { id: typeId, skillsOrder } = config[typeIndex];
 
-            expect(type.find('[data-qa="skills-title"]').text()).toBe(lang[id]);
+            expect(type.find('[data-qa="skills-title"]').text()).toBe(lang[typeId]);
 
             const skills = type.find('[data-qa="skill"]');
             expect(skills.length).toBe(skillsOrder.length);
 
             skills.forEach((skill, skillIndex) => {
-                const skillName = skillsOrder[skillIndex];
+                const { id: skillId } = skillsOrder[skillIndex];
 
-                expect(skill.text()).toBe(lang[skillName]);
+                expect(skill.text()).toBe(lang[skillId]);
 
                 const img = skill.find('img');
-                expect(img.props().src).toBe(`../../libs/assets/${skillName}.svg`);
-                expect(img.props().alt).toBe(skillName);
+                expect(img.props().alt).toBe(skillId);
             });
         });
     });

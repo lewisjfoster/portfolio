@@ -14,20 +14,24 @@ const Skills = () => {
         <Container background={Container.backgrounds.BGTHREE}>
             <SectionTitle title={title} />
             {config.map((type) => {
-                const { id, skillsOrder } = type;
+                const { id: typeId, skillsOrder } = type;
 
                 return (
-                    <div key={id} data-qa="skills-section">
+                    <div key={typeId} data-qa="skills-section">
                         <div className={styles.skillTitle} data-qa="skills-title">
-                            {lang[id]}
+                            {lang[typeId]}
                         </div>
                         <div className={styles.skills}>
-                            {skillsOrder.map((skill) => (
-                                <div key={skill} className={styles.skill} data-qa="skill">
-                                    <img src={`../../libs/assets/${skill}.svg`} alt={skill} />
-                                    {lang[skill]}
-                                </div>
-                            ))}
+                            {skillsOrder.map((skill) => {
+                                const { id: skillId, Icon } = skill;
+
+                                return (
+                                    <div key={skillId} className={styles.skill} data-qa="skill">
+                                        <img src={Icon} alt={skillId} />
+                                        {lang[skillId]}
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                 );

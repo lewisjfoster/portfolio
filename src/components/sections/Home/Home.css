@@ -4,12 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     letter-spacing: var(--xx-small);
 
     & a {
         cursor: pointer;
         border: none;
         background: none;
+        display: flex;
         padding: 0;
         outline: 0;
 
@@ -38,6 +40,7 @@
 }
 
 .links {
+    display: flex;
     margin-bottom: var(--medium);
 
     & > *:not(:last-child) {
