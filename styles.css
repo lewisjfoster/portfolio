@@ -12,10 +12,17 @@ body {
 
 .Container__container___Dm8ZP {
     position: relative;
-    padding: 3rem 5rem
+    padding: 3rem 3rem
 }
 
 @media (min-width: 768px) {
+
+.Container__container___Dm8ZP {
+        padding: 3rem 5rem
+}
+    }
+
+@media (min-width: 992px) {
 
 .Container__container___Dm8ZP {
         padding: 3rem 12rem
@@ -81,8 +88,8 @@ body {
             height: 3rem;
             width: 3rem;
             color: #2f3542;
-            -webkit-transition: color 0.25s ease-out;
-            transition: color 0.25s ease-out
+            -webkit-transition: color 0.25s ease-in-out;
+            transition: color 0.25s ease-in-out
         }
 
 .Home__home___2BJpU a > svg:hover,
@@ -181,4 +188,76 @@ body {
         -ms-flex-align: center;
             align-items: center;
 }
+
+.Card__cardLink___2b4YR {
+    text-decoration: none;
+}
+
+.Card__card___3QNlS {
+    background-color: #f1f2f6;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 0.25rem #747d8c;
+            box-shadow: 0 0 0.25rem #747d8c;
+    -webkit-transition: -webkit-box-shadow 0.25s ease-in-out;
+    transition: -webkit-box-shadow 0.25s ease-in-out;
+    transition: box-shadow 0.25s ease-in-out;
+    transition: box-shadow 0.25s ease-in-out, -webkit-box-shadow 0.25s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: left
+}
+
+.Card__card___3QNlS:hover,
+    .Card__card___3QNlS:focus {
+        -webkit-box-shadow: 0 0 1rem #747d8c;
+                box-shadow: 0 0 1rem #747d8c;
+    }
+
+.Card__cardTitle___1cn4Z {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Card__cardCta___3Q_X3 {
+    font-size: 1.25rem;
+}
+
+.Card__cardChevron___38CDP {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2rem;
+}
+
+.Projects__projectCards___3Yk4A {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem
+}
+@media (min-width: 992px) {
+    .Projects__projectCards___3Yk4A {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr)
+}
+    }
 
