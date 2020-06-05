@@ -78,7 +78,7 @@ body {
     }
 
 .Home__home___2BJpU a > svg {
-            height: var(--x-slarge);
+            height: 3rem;
             width: 3rem;
             color: #2f3542;
             -webkit-transition: color 0.25s ease-out;
