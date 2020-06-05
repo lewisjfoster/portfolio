@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/lewisjfoster/portfolio/compare/v1.0.3...v1.0.4) (2020-06-05)
+
+
+### Bug Fixes
+
+* jest config for svgs ([a8b231f](https://github.com/lewisjfoster/portfolio/commit/a8b231f57a48f6765b92409dd09f9091202600e0))
+
+
+
 ## [1.0.3](https://github.com/lewisjfoster/portfolio/compare/v1.0.2...v1.0.3) (2020-06-05)
 
 
