@@ -1,5 +1,7 @@
 # Lewis Foster - Portfolio
 
+[Live Demo](https://lewisjfoster.github.io/portfolio/)
+
 ## Getting Started
 
 `yarn` is required to run and build this project
