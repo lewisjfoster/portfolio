@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/lewisjfoster/portfolio/compare/v1.0.5...v1.1.0) (2020-06-05)
+
+
+### Features
+
+* added the projects section ([4d4bdcf](https://github.com/lewisjfoster/portfolio/commit/4d4bdcf13457ddb363e543c44427ad4352360cc9))
+
+
+
 ## [1.0.5](https://github.com/lewisjfoster/portfolio/compare/v1.0.4...v1.0.5) (2020-06-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * skill images and config ([2d5dbee](https://github.com/lewisjfoster/portfolio/commit/2d5dbee11f665fdbd0004dda93944fe7034c4fc6))
-
-
-
-## [1.0.1](https://github.com/lewisjfoster/portfolio/compare/v1.0.0...v1.0.1) (2020-06-04)
-
-
-### Bug Fixes
-
-* added gh-pages dev dependency ([a1806d7](https://github.com/lewisjfoster/portfolio/commit/a1806d7c82e1c6feb1ea7a0af22cfb4667af5223))
 
 
 
