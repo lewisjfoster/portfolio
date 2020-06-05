@@ -16,7 +16,7 @@
         outline: 0;
 
         & > svg {
-            height: var(--x-slarge);
+            height: var(--x-large);
             width: var(--x-large);
             color: var(--text-base);
             transition: color 0.25s ease-out;
