@@ -13,7 +13,7 @@ describe('Home', () => {
     it('should render the component', () => {
         const wrapper = mount(<Home />);
 
-        expect(wrapper.find(Home)).toBeTruthy();
+        expect(wrapper.find(Home).exists()).toBeTruthy();
     });
 
     it('should render the correct name', () => {

@@ -1,4 +1,4 @@
-import { SKILL_TYPES, SKILLS } from './constants';
+import { SKILL_TYPES, SKILLS, PROJECTS } from './constants';
 
 const { FRONTEND, BACKEND, LINTING_FORMATTING, VERSION_CONTROL, TESTING, DATABASES, SDLC } = SKILL_TYPES;
 
@@ -28,6 +28,8 @@ const {
     STYLELINT,
     WEBPACK,
 } = SKILLS;
+
+const { BOUNCING_BALLS, TWITTER_HEART } = PROJECTS;
 
 export const home = {
     name: 'Lewis Foster',
@@ -76,4 +78,16 @@ export const skills = {
     [MONGODB]: 'mongoDB',
     [JIRA]: 'JIRA',
     [CONFLUENCE]: 'Confluence',
+};
+
+export const projects = {
+    title: 'Projects',
+    [BOUNCING_BALLS]: {
+        projectTitle: 'Bouncing Balls',
+        cta: 'Live Demo',
+    },
+    [TWITTER_HEART]: {
+        projectTitle: 'Twitter Heart',
+        cta: 'Live Demo',
+    },
 };

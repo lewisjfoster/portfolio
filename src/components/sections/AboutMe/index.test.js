@@ -13,7 +13,7 @@ describe('AboutMe', () => {
     it('should render the component', () => {
         const wrapper = mount(<AboutMe />);
 
-        expect(wrapper.find(AboutMe)).toBeTruthy();
+        expect(wrapper.find(AboutMe).exists()).toBeTruthy();
     });
 
     it('should render the correct title', () => {

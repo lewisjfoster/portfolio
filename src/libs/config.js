@@ -1,7 +1,15 @@
 /* eslint-disable import/prefer-default-export */
 import { FaGithub, FaLinkedin, FaChevronDown } from 'react-icons/fa';
 
-import { GITHUB_HREF, LINKEDIN_HREF, SKILL_TYPES, SKILLS } from './constants';
+import {
+    GITHUB_HREF,
+    LINKEDIN_HREF,
+    BOUNCING_BALLS_HREF,
+    TWITTER_HEART_HREF,
+    SKILL_TYPES,
+    SKILLS,
+    PROJECTS,
+} from './constants';
 
 import BabelIcon from './assets/babel.svg';
 import ConfluenceIcon from './assets/confluence.svg';
@@ -56,6 +64,8 @@ const {
     STYLELINT,
     WEBPACK,
 } = SKILLS;
+
+const { BOUNCING_BALLS, TWITTER_HEART } = PROJECTS;
 
 export const home = {
     links: [
@@ -133,4 +143,9 @@ export const skills = [
             { id: CONFLUENCE, Icon: ConfluenceIcon },
         ],
     },
+];
+
+export const projects = [
+    { id: BOUNCING_BALLS, ctaHref: BOUNCING_BALLS_HREF },
+    { id: TWITTER_HEART, ctaHref: TWITTER_HEART_HREF },
 ];

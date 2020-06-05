@@ -1,0 +1,40 @@
+.cardLink {
+    text-decoration: none;
+}
+
+.card {
+    background-color: var(--bg-one);
+    width: 100%;
+    padding: var(--large);
+    border-radius: var(--small);
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 0 var(--x-small) var(--wharf-blue);
+    transition: box-shadow 0.25s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+
+    &:hover,
+    &:focus {
+        box-shadow: 0 0 var(--medium) var(--wharf-blue);
+    }
+}
+
+.cardTitle {
+    font-size: var(--medium-plus);
+    margin-bottom: var(--large);
+}
+
+.cardCta {
+    font-size: var(--medium-extra);
+}
+
+.cardChevron {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: var(--large);
+}

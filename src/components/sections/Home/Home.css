@@ -19,7 +19,7 @@
             height: var(--x-large);
             width: var(--x-large);
             color: var(--text-base);
-            transition: color 0.25s ease-out;
+            transition: color 0.25s ease-in-out;
 
             &:hover,
             &:focus {

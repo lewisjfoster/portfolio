@@ -4,6 +4,9 @@ export const GITHUB_HREF = 'https://github.com/lewisjfoster';
 export const LINKEDIN_HREF = 'https://uk.linkedin.com/in/lewisjfoster';
 export const CLEARSCORE_HREF = 'https://www.clearscore.com/';
 
+export const BOUNCING_BALLS_HREF = 'https://lewisjfoster.github.io/bouncing-balls/';
+export const TWITTER_HEART_HREF = 'https://lewisjfoster.github.io/twitter-heart/';
+
 export const SKILL_TYPES = {
     FRONTEND: 'frontend',
     BACKEND: 'backend',
@@ -25,7 +28,7 @@ export const SKILLS = {
     WEBPACK: 'webpack',
     ESLINT: 'eslint',
     STYLELINT: 'stylelint',
-    PRETTIER: 'Prettier',
+    PRETTIER: 'prettier',
     GIT: 'git',
     GITHUB: 'github',
     GITLAB: 'gitlab',
@@ -39,4 +42,9 @@ export const SKILLS = {
     MONGODB: 'mongodb',
     JIRA: 'jira',
     CONFLUENCE: 'confluence',
+};
+
+export const PROJECTS = {
+    BOUNCING_BALLS: 'bouncing_balls',
+    TWITTER_HEART: 'twitter_heart',
 };
