@@ -1,0 +1,184 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f1f2f6;
+    color: #2f3542;
+}
+
+.Container__container___Dm8ZP {
+    position: relative;
+    padding: 3rem 5rem
+}
+
+@media (min-width: 768px) {
+
+.Container__container___Dm8ZP {
+        padding: 3rem 12rem
+}
+    }
+
+.Container__container___Dm8ZP.Container__isFullHeight___lrxx_ {
+        height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+/* Background */
+
+.Container__bgOne___3qDDw {
+    background-color: #f1f2f6;
+}
+
+.Container__bgTwo___3d2sq {
+    background-color: #dfe4ea;
+}
+
+.Container__bgThree___2Qy0X {
+    background-color: #ced6e0;
+}
+
+.Container__bgFour___revIC {
+    background-color: #a4b0be;
+}
+
+.Home__home___2BJpU {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.125rem
+}
+
+.Home__home___2BJpU a {
+        cursor: pointer;
+        border: none;
+        background: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 0;
+        outline: 0
+    }
+
+.Home__home___2BJpU a > svg {
+            height: var(--x-slarge);
+            width: 3rem;
+            color: #2f3542;
+            -webkit-transition: color 0.25s ease-out;
+            transition: color 0.25s ease-out
+        }
+
+.Home__home___2BJpU a > svg:hover,
+            .Home__home___2BJpU a > svg:focus {
+                color: #747d8c;
+            }
+
+.Home__name___1Lw2Q {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.Home__jobRole___fLTNQ {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Home__links___3BS1l {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem
+}
+
+.Home__links___3BS1l > *:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+.Home__scroll___3SfO8 {
+    margin-bottom: 2rem;
+}
+
+.SectionTitle__title___MAogE {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.AboutMe__line___2POSq {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem
+}
+.AboutMe__line___2POSq > a {
+        color: #2f3542;
+        text-decoration: none
+    }
+.AboutMe__line___2POSq > a:hover,
+        .AboutMe__line___2POSq > a:focus {
+            color: #747d8c;
+        }
+
+.Skills__skills___1Hyoz {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 3rem
+}
+
+@media (min-width: 992px) {
+
+.Skills__skills___1Hyoz {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr)
+}
+    }
+
+@media (min-width: 1200px) {
+
+.Skills__skills___1Hyoz {
+        -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr)
+}
+    }
+
+.Skills__skills___1Hyoz img {
+        height: 3rem;
+        width: 3rem;
+        margin-right: 1rem;
+    }
+
+.Skills__skillTitle___3ScRo {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.Skills__skill___honxw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
