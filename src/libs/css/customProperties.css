@@ -1,13 +1,21 @@
 :root {
+    /* Base Colours */
+    --flash-white: #f1f2f6;
+    --city-white: #dfe4ea;
+    --twinkle-blue: #ced6e0;
+    --peace-blue: #a4b0be;
+    --wharf-blue: #747d8c;
+    --prestige-blue: #2f3542;
+
     /* Text Colors */
-    --text-base: #2f3542;
-    --text-active: #747d8c;
+    --text-base: var(--prestige-blue);
+    --text-active: var(--wharf-blue);
 
     /* Background Colours */
-    --bg-one: #f1f2f6;
-    --bg-two: #dfe4ea;
-    --bg-three: #ced6e0;
-    --bg-four: #a4b0be;
+    --bg-one: var(--flash-white);
+    --bg-two: var(--city-white);
+    --bg-three: var(--twinkle-blue);
+    --bg-four: var(--peace-blue);
 
     /* Sizes */
     --xx-small: 0.125rem;

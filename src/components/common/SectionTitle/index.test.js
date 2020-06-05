@@ -7,7 +7,7 @@ describe('SectionTitle', () => {
     it('should render the component', () => {
         const wrapper = mount(<SectionTitle title="test" />);
 
-        expect(wrapper.find(SectionTitle)).toBeTruthy();
+        expect(wrapper.find(SectionTitle).exists()).toBeTruthy();
     });
 
     it('should render with the correct props', () => {

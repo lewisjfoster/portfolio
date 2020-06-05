@@ -4,6 +4,7 @@ import './App.css';
 import Home from '../sections/Home';
 import AboutMe from '../sections/AboutMe';
 import Skills from '../sections/Skills';
+import Projects from '../sections/Projects';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Home />
             <AboutMe />
             <Skills />
+            <Projects />
         </>
     );
 };

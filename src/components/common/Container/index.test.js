@@ -8,7 +8,7 @@ describe('Container', () => {
     it('should render the component', () => {
         const wrapper = mount(<Container background={Container.backgrounds.BGONE}>Test</Container>);
 
-        expect(wrapper.find(Container)).toBeTruthy();
+        expect(wrapper.find(Container).exists()).toBeTruthy();
     });
 
     it('should render the component with the correct props', () => {
