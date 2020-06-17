@@ -5,6 +5,7 @@ import {
     GITHUB_HREF,
     LINKEDIN_HREF,
     BOUNCING_BALLS_HREF,
+    CARD_FLIP_FORM_HREF,
     TWITTER_HEART_HREF,
     SKILL_TYPES,
     SKILLS,
@@ -32,6 +33,7 @@ import NodeIcon from './assets/node.svg';
 import PostCSSIcon from './assets/postcss.svg';
 import PrettierIcon from './assets/prettier.svg';
 import ReactIcon from './assets/react.svg';
+import RtlIcon from './assets/react-testing-library.svg';
 import ReduxIcon from './assets/redux.svg';
 import StylelintIcon from './assets/stylelint.svg';
 import WebpackIcon from './assets/webpack.svg';
@@ -60,12 +62,13 @@ const {
     POSTCSS,
     PRETTIER,
     REACT,
+    REACT_TESTING_LIBRARY,
     REDUX,
     STYLELINT,
     WEBPACK,
 } = SKILLS;
 
-const { BOUNCING_BALLS, TWITTER_HEART } = PROJECTS;
+const { BOUNCING_BALLS, CARD_FLIP_FORM, TWITTER_HEART } = PROJECTS;
 
 export const home = {
     links: [
@@ -127,6 +130,7 @@ export const skills = [
         skillsOrder: [
             { id: JEST, Icon: JestIcon },
             { id: ENZYME, Icon: EnzymeIcon },
+            { id: REACT_TESTING_LIBRARY, Icon: RtlIcon },
         ],
     },
     {
@@ -147,5 +151,6 @@ export const skills = [
 
 export const projects = [
     { id: BOUNCING_BALLS, ctaHref: BOUNCING_BALLS_HREF },
+    { id: CARD_FLIP_FORM, ctaHref: CARD_FLIP_FORM_HREF },
     { id: TWITTER_HEART, ctaHref: TWITTER_HEART_HREF },
 ];

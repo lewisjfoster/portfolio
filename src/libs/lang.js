@@ -24,12 +24,13 @@ const {
     POSTCSS,
     PRETTIER,
     REACT,
+    REACT_TESTING_LIBRARY,
     REDUX,
     STYLELINT,
     WEBPACK,
 } = SKILLS;
 
-const { BOUNCING_BALLS, TWITTER_HEART } = PROJECTS;
+const { BOUNCING_BALLS, CARD_FLIP_FORM, TWITTER_HEART } = PROJECTS;
 
 export const home = {
     name: 'Lewis Foster',
@@ -74,6 +75,7 @@ export const skills = {
     [JAVA]: 'Java',
     [JEST]: 'Jest',
     [ENZYME]: 'Enzyme',
+    [REACT_TESTING_LIBRARY]: 'React Testing Library',
     [MSSQL]: 'Microsoft SQL Server',
     [MONGODB]: 'mongoDB',
     [JIRA]: 'JIRA',
@@ -84,6 +86,10 @@ export const projects = {
     title: 'Projects',
     [BOUNCING_BALLS]: {
         projectTitle: 'Bouncing Balls',
+        cta: 'Live Demo',
+    },
+    [CARD_FLIP_FORM]: {
+        projectTitle: 'Credit Card Flip Form',
         cta: 'Live Demo',
     },
     [TWITTER_HEART]: {

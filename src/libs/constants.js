@@ -5,6 +5,7 @@ export const LINKEDIN_HREF = 'https://uk.linkedin.com/in/lewisjfoster';
 export const CLEARSCORE_HREF = 'https://www.clearscore.com/';
 
 export const BOUNCING_BALLS_HREF = 'https://lewisjfoster.github.io/bouncing-balls/';
+export const CARD_FLIP_FORM_HREF = 'https://lewisjfoster.github.io/card-flip-form/';
 export const TWITTER_HEART_HREF = 'https://lewisjfoster.github.io/twitter-heart/';
 
 export const SKILL_TYPES = {
@@ -38,6 +39,7 @@ export const SKILLS = {
     JAVA: 'java',
     JEST: 'jest',
     ENZYME: 'enzyme',
+    REACT_TESTING_LIBRARY: 'rtl',
     MSSQL: 'mssql',
     MONGODB: 'mongodb',
     JIRA: 'jira',
@@ -46,5 +48,6 @@ export const SKILLS = {
 
 export const PROJECTS = {
     BOUNCING_BALLS: 'bouncing_balls',
+    CARD_FLIP_FORM: 'card_flip_form',
     TWITTER_HEART: 'twitter_heart',
 };
