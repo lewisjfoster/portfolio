@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/lewisjfoster/portfolio/compare/v1.1.0...v1.2.0) (2020-06-17)
+
+
+### Features
+
+* added card flip form ([9057f03](https://github.com/lewisjfoster/portfolio/commit/9057f039763247de93300268aaed6638572f43b4))
+
+
+
 # [1.1.0](https://github.com/lewisjfoster/portfolio/compare/v1.0.5...v1.1.0) (2020-06-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * home icon sizing ([8436429](https://github.com/lewisjfoster/portfolio/commit/8436429e80735f85e6c57d38bdddcf258cdaa4d2))
-
-
-
-## [1.0.2](https://github.com/lewisjfoster/portfolio/compare/v1.0.1...v1.0.2) (2020-06-05)
-
-
-### Bug Fixes
-
-* skill images and config ([2d5dbee](https://github.com/lewisjfoster/portfolio/commit/2d5dbee11f665fdbd0004dda93944fe7034c4fc6))
 
 
 
